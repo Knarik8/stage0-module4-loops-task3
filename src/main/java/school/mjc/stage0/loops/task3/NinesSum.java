@@ -7,7 +7,6 @@ public class NinesSum {
         for (int i = 1; i <= lengthOfLastNumber; i++){
             temp+="9";
             sum+= Integer.parseInt(temp);
-            System.out.println(temp);
         }
         System.out.println(sum);
     }
